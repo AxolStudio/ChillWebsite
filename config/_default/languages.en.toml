@@ -1,0 +1,65 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "The Chilluminati Podcast"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/chill-logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "A podcast for everything weird. UFO's, Hauntings, Mysterious Disappearances, True Crime and Inappropriate Jokes. If you're here for a history lesson you might be lost."
+  copyright = "© Copyright 2024 Chilluminati LLC"
+
+[author]
+  name = "Chilluminati"
+  image = "img/chill-logo-2.png"
+  headline = "We want to believe!"
+  bio = "A podcast on everything weird. UFO's, Hauntings, Mysterious Disappearances, True Crime. And inappropriate jokes to cope."
+  links = [
+    { email = "mailto:chilluminatipod@gmail.com" },
+    # { link = "https://link-to-some-website.com/" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { blogger = "https://username.blogspot.com/" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { hashnode = "https://username.hashnode.dev" },
+    { instagram = "https://www.instagram.com/chilluminatipod" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { orcid = "https://orcid.org/userid" },
+    { patreon = "https://www.patreon.com/chilluminatipod" },
+    # { pinterest = "https://pinterest.com/username" },
+    { reddit = "https://www.reddit.com/r/ChilluminatiPod" },
+    # { researchgate = "https://www.researchgate.net/profile/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    { tiktok = "https://www.tiktok.com/@chilluminatipod" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    { x-twitter = "https://twitter.com/ChilluminatiPod" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    { youtube = "https://www.youtube.com/channel/UCOHBVUV8aDg4tQiHnUqi_QA" },
+    # { ko-fi = "https://ko-fi.com/username" },
+  ]
