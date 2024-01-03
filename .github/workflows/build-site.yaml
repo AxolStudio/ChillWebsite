@@ -1,11 +1,11 @@
 name: ⚙ Build the Website
 
 on:
-  workflow_dispatch:
+    workflow_dispatch:
 
-  permissions: write-all
+permissions: write-all
 
-  concurrency:
+concurrency:
     group: "pages"
     cancel-in-progress: false
 
