@@ -1,6 +1,6 @@
 name: ⚙ Build the Website
 
-on: 
+on:
   workflow_dispatch:
 
   permissions: write-all
