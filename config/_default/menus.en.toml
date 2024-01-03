@@ -16,13 +16,13 @@
  weight = 10
 
 [[main]]
- name = "Parent"
+ name = "Where to Listen"
  weight = 20
 
 [[main]]
- name = "example sub-menu 1"
- parent = "Parent"
- pageRef = "posts"
+ name = "Audioboom"
+ parent = "Where to Listen"
+ pageRef = "https://audioboom.com/channels/5031584-chilluminati-podcast"
  weight = 20
 
 [[main]]
