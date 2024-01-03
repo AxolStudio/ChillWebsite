@@ -14,8 +14,9 @@
     <div id="mike-martin"
         class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
         <div class="text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
-            {{ $mikeImg := resources.Get "img/mike.png" }}
-            <img class width="44" height="64"
+            {{ $mikeImg := resources.Get "img/mike-toon.png" }}
+            {{ $mikeImg = $mikeImg.Fill "288x288" }}
+            <img class="rounded-full "  width="144" height="144"
                 src="{{ $mikeImg.RelPermalink }}" />
         </div>
 
@@ -42,8 +43,9 @@
         </div>
 
         <div class=" flex-initial text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
-            {{ $jesseImg := resources.Get "img/jesse.png" }}
-            <img class width="44" height="64"
+            {{ $jesseImg := resources.Get "img/jesse-toon.png" }}
+            {{ $jesseImg = $jesseImg.Fill "288x288" }}
+            <img class="rounded-full "  width="144" height="144"
                 src="{{ $jesseImg.RelPermalink }}" />
         </div>
     </div>
@@ -52,8 +54,9 @@
         class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
         
         <div class="text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
-            {{ $alexImg := resources.Get "img/alex.png" }}
-            <img class width="44" height="64"
+            {{ $alexImg := resources.Get "img/alex-toon.png" }}
+            {{ $alexImg = $alexImg.Fill "288x288" }}
+            <img class="rounded-full " width="144" height="144"
                 src="{{ $alexImg.RelPermalink }}" />
         </div>
 
