@@ -21,11 +21,7 @@ buildFuture = false
   anchor = 'Center'
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-  author = "authors"
-  series = "series"
-
+  
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'

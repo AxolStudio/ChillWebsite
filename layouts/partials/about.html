@@ -1,0 +1,71 @@
+<h2 class="mt-10 text-2xl font-extrabold mb-6" id="about">About</h2>
+
+<div
+    class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur my-4 px-4 py-2">
+
+    <p>Since 2018, these spooky boys have been bringing you the weirdest and
+        wildest stories from the internet and beyond. From the paranormal to the
+        supernatural, the extraterrestrial to the conspiratorial, and the
+        bizarre to the just plain weird, the Chilluminati Podcast is your
+        one-stop shop for the strange and unusual.</p>
+
+    <h3 class="mt-6  font-extrabold mb-3">Your Hosts</h3>
+
+    <div id="mike-martin"
+        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
+        <div class="text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
+            {{ $mikeImg := resources.Get "img/mike.png" }}
+            <img class width="44" height="64"
+                src="{{ $mikeImg.RelPermalink }}" />
+        </div>
+
+        <div class="dark:text-neutral-300 px-4 flex-auto">
+            <h4 class="font-bold">Mike Martin</h4>
+            <p>
+                Mike "Mathas" Martin is a content creator and podcaster. He
+                lives in Texas.
+                Needs more! And links to what they want to link to.
+            </p>
+        </div>
+    </div>
+
+    <div id="jesse-cox"
+        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
+
+        <div class="dark:text-neutral-300  flex-auto px-4">
+            <h4 class="font-bold text-right">Jesse Cox</h4>
+            <p class=" text-right">
+                Jesse Cox is a content creator, streamer, and podcaster. He
+                lives in California.
+                Needs more! And links to what they want to link to.
+            </p>
+        </div>
+
+        <div class=" flex-initial text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
+            {{ $jesseImg := resources.Get "img/jesse.png" }}
+            <img class width="44" height="64"
+                src="{{ $jesseImg.RelPermalink }}" />
+        </div>
+    </div>
+
+    <div id="alex-faciane"
+        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
+        
+        <div class="text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
+            {{ $alexImg := resources.Get "img/alex.png" }}
+            <img class width="44" height="64"
+                src="{{ $alexImg.RelPermalink }}" />
+        </div>
+
+        <div class="dark:text-neutral-300 px-4 flex-auto">
+            <h4 class="font-bold">Alex Faciane</h4>
+            <p>
+                Alex Faciane is a writer, content creator, streamer, and podcaster. He lives in California.
+                Needs more! And links to what they want to link to.
+            </p>
+        </div>
+
+        
+    </div>
+
+</div>

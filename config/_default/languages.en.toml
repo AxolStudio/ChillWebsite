@@ -14,13 +14,15 @@ title = "The Chilluminati Podcast"
   copyright = "© Copyright 2024 Chilluminati LLC"
 
 [author]
-  name = "Chilluminati"
+  name = "The Chilluminati Podcast"
   image = "img/chill-logo-2.png"
   headline = "We want to believe!"
   bio = "A podcast on everything weird. UFO's, Hauntings, Mysterious Disappearances, True Crime. And inappropriate jokes to cope."
   links = [
     { email = "mailto:chilluminatipod@gmail.com" },
+    { yetee = "https://theyetee.com/collections/chilluminati" },
     # { link = "https://link-to-some-website.com/" },
+    { audioboom = "https://audioboom.com/channels/5031584-chilluminati-podcast" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { blogger = "https://username.blogspot.com/" },

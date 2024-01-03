@@ -11,46 +11,22 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Blog"
- pageRef = "posts"
+ name = "About"
+ url = "#about"
  weight = 10
 
 [[main]]
- name = "Where to Listen"
- weight = 20
-
-[[main]]
- name = "Audioboom"
- parent = "Where to Listen"
- pageRef = "https://audioboom.com/channels/5031584-chilluminati-podcast"
- weight = 20
-
-[[main]]
- name = "example sub-menu 2"
- parent = "Parent"
- pageRef = "posts"
- weight = 20
-
-[[subnavigation]]
- name = "An interesting topic"
- pageRef = "tags/interesting-topic"
- weight = 10
-
-[[subnavigation]]
- name = "My Awesome Category"
- pre = "github"
- pageRef = "categories/awesome"
- weight = 20
-
-[[main]]
- name = "Categories"
- pageRef = "categories"
- weight = 20
-
-[[main]]
- name = "Tags"
- pageRef = "tags"
+ name = "Buy our Merch!"
+ pre = "yetee"
+ url ="https://theyetee.com/collections/chilluminati"
  weight = 30
+
+[[main]]
+ name = "Support us on Patreon!"
+ pre = "patreon"
+ url ="https://www.patreon.com/chilluminatipod"
+ weight = 40
+
 
 
 # -- Footer Menu --
@@ -59,11 +35,8 @@
 
 
 [[footer]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "chilluminatipod@gmail.com"
+  pre="email"
+  url="mailto:chilluminatipod@gmail.com"
   weight = 10
 
-[[footer]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
