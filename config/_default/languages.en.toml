@@ -12,6 +12,11 @@ title = "The Chilluminati Podcast"
   # secondaryLogo = "img/secondary-logo.png"
   description = "A podcast for everything weird. UFO's, Hauntings, Mysterious Disappearances, True Crime and Inappropriate Jokes. If you're here for a history lesson you might be lost."
   copyright = "© Copyright 2024 Chilluminati LLC"
+  title = "The Chilluminati Podcast"
+  images = ["heading.jpg"]
+  [params.social]
+    twitter = "ChilluminatiPod"
+
 
 [author]
   name = "The Chilluminati Podcast"

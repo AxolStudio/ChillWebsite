@@ -14,11 +14,11 @@
     </nav>
     {{ end }}
   {{ end }}
-  <div class="flex items-center justify-between">
+  <div class="flex flex-col md:flex-row items-center justify-between gap-2 text-center">
 
     {{/* Copyright */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
-    <p class="  text-sm text-neutral-500 dark:text-neutral-400">
+    <p class="  text-xs med:text-sm text-neutral-500 dark:text-neutral-400 flex-auto">
       {{- with replace .Site.Params.copyright "{ year }" now.Year  }}
       {{ . | emojify | markdownify }}
       {{- else }}
@@ -30,11 +30,11 @@
     {{ end }}
 
     
-    <p class="font-bold text-s text-neutral-500 dark:text-neutral-400">
+    <p class="font-bold text-sm med:text-lg text-neutral-500 dark:text-neutral-400 flex-auto">
         <a href="mailto:chilluminatipod@gmail.com" class="hover:text-secondary-400 text-primary-800 dark:text-primary-200" target="_blank">chilluminatipod@gmail.com</a>
     </p>
 
-    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+    <p class=" text-xs med:text-sm text-neutral-500 dark:text-neutral-400 flex-auto">
         Website created by <a class=" font-bold hover:text-secondary-400 text-primary-800 dark:text-primary-200" href="https://axolstudio.com/" target="_blank">Tim I Hely</a>, Illustrations by <span class="font-bold">JPB</span>.
     </p>
 

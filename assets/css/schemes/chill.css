@@ -65,3 +65,12 @@
   height: 100%;
   width: 100%;
 }
+
+.face {
+  border-width: 0.4em;
+  border-color: rgb(var(--color-primary-600));
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}

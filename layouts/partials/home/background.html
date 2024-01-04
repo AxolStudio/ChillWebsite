@@ -46,7 +46,7 @@
                     {{ end }}
                     <div class="mt-5 mb-10 text-2xl">
                         {{ with .Site.Author.links }}
-                        <div class="flex flex-wrap">
+                        <div class="flex flex-wrap gap-2 justify-items-center justify-center">
                             {{ range $links := . }}
                             {{ range $name, $url := $links }}
                             <a class="px-1 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="{{ $url }}" target="_blank"

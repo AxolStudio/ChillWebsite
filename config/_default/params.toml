@@ -18,6 +18,8 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
 
+disableImageZoom = true
+
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
@@ -33,7 +35,7 @@ disableTextInHeader = false
   showCopyright = true
   showThemeAttribution = false
   showAppearanceSwitcher = false
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom

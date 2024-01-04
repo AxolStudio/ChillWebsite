@@ -11,16 +11,14 @@
 
     <h3 class="mt-6  font-extrabold mb-3">Your Hosts</h3>
 
+    {{ $mikeImg := resources.Get "img/mike-toon.png" }}
+    {{ $mikeImg = $mikeImg.Fill "288x288" }}
+    <img class="rounded-full face absolute z-50 " width="144" height="144"
+        src="{{ $mikeImg.RelPermalink }}" />
     <div id="mike-martin"
-        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
-        <div class="text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
-            {{ $mikeImg := resources.Get "img/mike-toon.png" }}
-            {{ $mikeImg = $mikeImg.Fill "288x288" }}
-            <img class="rounded-full "  width="144" height="144"
-                src="{{ $mikeImg.RelPermalink }}" />
-        </div>
+        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6 z-0" style="margin-left:4em;" >
 
-        <div class="dark:text-neutral-300 px-4 flex-auto">
+        <div class="dark:text-neutral-300 px-4 my-4 flex-auto" style="margin-left:3em;">
             <h4 class="font-bold">Mike Martin</h4>
             <p>
                 Mike "Mathas" Martin is a content creator and podcaster. He
@@ -30,10 +28,16 @@
         </div>
     </div>
 
+    {{ $jesseImg := resources.Get "img/jesse-toon.png" }}
+    {{ $jesseImg = $jesseImg.Fill "288x288" }}
+    <img class="rounded-full face absolute z-50  " width="144" height="144"
+        src="{{ $jesseImg.RelPermalink }}" style="right:1em;" />
     <div id="jesse-cox"
-        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
+        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6 z-0"
+        style="margin-right:4em;">
 
-        <div class="dark:text-neutral-300  flex-auto px-4">
+        <div class="dark:text-neutral-300  flex-auto  px-4 my-4"
+            style="margin-right:3em;">
             <h4 class="font-bold text-right">Jesse Cox</h4>
             <p class=" text-right">
                 Jesse Cox is a content creator, streamer, and podcaster. He
@@ -42,33 +46,26 @@
             </p>
         </div>
 
-        <div class=" flex-initial text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
-            {{ $jesseImg := resources.Get "img/jesse-toon.png" }}
-            {{ $jesseImg = $jesseImg.Fill "288x288" }}
-            <img class="rounded-full "  width="144" height="144"
-                src="{{ $jesseImg.RelPermalink }}" />
-        </div>
     </div>
 
+    {{ $alexImg := resources.Get "img/alex-toon.png" }}
+    {{ $alexImg = $alexImg.Fill "288x288" }}
+    <img id="alex-face" class="face rounded-full absolute z-50 " width="144"
+        height="144"
+        src="{{ $alexImg.RelPermalink }}" />
     <div id="alex-faciane"
-        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6">
-        
-        <div class="text-primary-400 ltr:pr-3 rtl:pl-3  flex-none items-center">
-            {{ $alexImg := resources.Get "img/alex-toon.png" }}
-            {{ $alexImg = $alexImg.Fill "288x288" }}
-            <img class="rounded-full " width="144" height="144"
-                src="{{ $alexImg.RelPermalink }}" />
-        </div>
+        class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6 z-0 "
+        style="margin-left:4em;">
 
-        <div class="dark:text-neutral-300 px-4 flex-auto">
+        <div class="dark:text-neutral-300 px-4 my-4 flex-auto" style="margin-left:3em;">
             <h4 class="font-bold">Alex Faciane</h4>
             <p>
-                Alex Faciane is a writer, content creator, streamer, and podcaster. He lives in California.
+                Alex Faciane is a writer, content creator, streamer, and
+                podcaster. He lives in California.
                 Needs more! And links to what they want to link to.
             </p>
         </div>
 
-        
     </div>
 
 </div>
