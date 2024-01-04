@@ -40,6 +40,7 @@ disableImageZoom = true
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/heading.jpg" # used in: hero, and card
+  homepageImageAlt = "The Chilluminati Hosts"
   showRecent = true
   showRecentItems = 5
   showMoreLink = true

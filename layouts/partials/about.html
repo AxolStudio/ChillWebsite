@@ -14,7 +14,7 @@
     {{ $mikeImg := resources.Get "img/mike-toon.png" }}
     {{ $mikeImg = $mikeImg.Fill "288x288" }}
     <img class="rounded-full face absolute z-50 " width="144" height="144"
-        src="{{ $mikeImg.RelPermalink }}" />
+        src="{{ $mikeImg.RelPermalink }}" alt="Mike's Face!" />
     <div id="mike-martin"
         class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6 z-0" style="margin-left:4em;" >
 
@@ -31,7 +31,7 @@
     {{ $jesseImg := resources.Get "img/jesse-toon.png" }}
     {{ $jesseImg = $jesseImg.Fill "288x288" }}
     <img class="rounded-full face absolute z-50  " width="144" height="144"
-        src="{{ $jesseImg.RelPermalink }}" style="right:1em;" />
+        src="{{ $jesseImg.RelPermalink }}" style="right:1em;" alt="Jesse's Face!" />
     <div id="jesse-cox"
         class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6 z-0"
         style="margin-right:4em;">
@@ -52,7 +52,7 @@
     {{ $alexImg = $alexImg.Fill "288x288" }}
     <img id="alex-face" class="face rounded-full absolute z-50 " width="144"
         height="144"
-        src="{{ $alexImg.RelPermalink }}" />
+        src="{{ $alexImg.RelPermalink }}" alt="Alex's Face!"/>
     <div id="alex-faciane"
         class="standout flex px-4 py-3 border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur mb-6 z-0 "
         style="margin-left:4em;">
