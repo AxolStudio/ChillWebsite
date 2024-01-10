@@ -1,0 +1,34 @@
+{{ if .Site.Menus.othershows }}
+<h2 class="mt-10 text-2xl font-extrabold mb-6" id="about">Check out our Other
+    Shows</h2>
+
+<div
+    class="flex  justify-evenly justify-items-stretch flex-col md:flex-row min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur-2xl my-4 px-4 py-2">
+
+    {{ range $.Site.Data.othershows }}
+    <div class="  w-full text-center">
+        <a href="{{ .URL }}" target="_blank" rel="external" class="min-w-full">
+            <div
+                class=" w-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+                {{ $image := resources.Get .image }}
+
+                <meta property="og:image" content="{{  $image | absURL }}" />
+                {{ with $image.Resize "200x" }}
+                <img src="{{ .RelPermalink }}" class="aspect-square w-full" />
+                {{ end }}
+
+                <div class="min-w-full ">
+                    <div
+                        class="font-bold text-lg text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+                        {{ .name | emojify }}
+                        
+                    </div>
+                </div>
+
+            </div>
+        </a>
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

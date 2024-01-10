@@ -28,8 +28,16 @@
  weight = 40
 
 
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
+# [[othershows]]
+#     name = "Scary Game Squad"
+#     url = "#"
+#     image = "img/chill-logo.png"
+
+[[othershows]]
+    name = "SWOCBC"
+    url = "https://audioboom.com/channels/5106290-star-wars-old-canon-book-club#"
+    image = "img/swocbc.png"
