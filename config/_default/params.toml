@@ -27,6 +27,10 @@ disableImageZoom = true
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
+
+  defaultOpenGraphImage = "/img/og-fb.png"
+  defaultTwitterImage = "/img/og-twitter.png"
+
 [header]
   layout = "fixed-fill" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
