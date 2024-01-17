@@ -13,7 +13,7 @@
                 class=" w-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
                 {{ $image := resources.Get .image }}
 
-                <meta property="og:image" content="{{  $image | absURL }}" />
+                
                 {{ with $image.Resize "200x" }}
                 <img src="{{ .RelPermalink }}" class="aspect-square w-full" />
                 {{ end }}
