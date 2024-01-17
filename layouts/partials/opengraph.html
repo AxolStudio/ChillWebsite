@@ -4,7 +4,7 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 
 {{- $image := resources.Get .Site.Params.defaultOpenGraphImage -}}
-<meta property="og:image" content="{{ $image.RelPermalink }}" />
+<meta property="og:image" content="{{ $image.RelPermalink | absURL }}" />
 
 {{- if .IsPage }}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
